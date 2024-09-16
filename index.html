@@ -1,1 +1,22 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title>Xboard</title><script type="module" crossorigin src="/assets/umi.js"></script></head><body><script src="./env.js"></script><div id="app"></div></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title>Xboard</title><script type="module" crossorigin src="/assets/umi.js"></script></head><body><script src="./env.js"></script><div id="app"></div>
+
+<script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'r5K7Nr1fTsxzHyRBoq4wSKYp',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+
+
+
+</body></html>
