@@ -1,5 +1,5 @@
 // API地址
-window.routerBase = 'https://ssoo.lol/'
+window.routerBase = 'https://aacc.lol/'
 window.settings = {
   // 站点名称
   title: 'ZKEOS加速',
