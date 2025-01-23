@@ -4,7 +4,7 @@ window.settings = {
   // 站点名称
   title: 'ZKEOS',
   // 站点描述
-  description: 'Xboard',
+  description: 'ZKEOS加速',
   assets_path: '/assets',
   // 主题色
   theme: {
